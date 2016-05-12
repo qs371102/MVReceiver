@@ -116,7 +116,8 @@ public class MainActivity extends Activity implements ConferenceClientObserver{
 			public void run() {   
 				command(MSG_LOGIN); 
 			}   
-		}, 1000);  
+		}, 1000);
+		com.baofeng.mojing.MojingSDK.Init(this);
 	}
 	@Override
 	protected void onPause() {

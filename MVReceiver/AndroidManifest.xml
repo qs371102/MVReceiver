@@ -13,7 +13,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="15" />
 
     <uses-permission android:name="android.permission.CAMERA" >
     </uses-permission>
@@ -39,6 +39,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="DEVELOPER_MERCHANT_ID"
+            android:value="C3845343263589043" />
+        <meta-data
+            android:name="DEVELOPER_APP_ID"
+            android:value="\03908657356234505" />
+        <meta-data
+            android:name="DEVELOPER_APP_KEY"
+            android:value="faadffa1383206111ae162969b340ad9" />
+        <meta-data
+            android:name="DEVELOPER_CHANNEL_ID"
+            android:value="www.mojing.cn" />
     </application>
 
 </manifest>
