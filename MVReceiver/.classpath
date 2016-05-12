@@ -5,5 +5,12 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="libs/engine.io-client.jar"/>
+	<classpathentry kind="lib" path="libs/Java-WebSocket.jar"/>
+	<classpathentry kind="lib" path="libs/libjingle_peerconnection.jar"/>
+	<classpathentry kind="lib" path="libs/socket.io-client.jar"/>
+	<classpathentry kind="lib" path="libs/woogeenbase.jar"/>
+	<classpathentry kind="lib" path="libs/woogeenconference.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
